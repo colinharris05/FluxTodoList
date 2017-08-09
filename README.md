@@ -1,21 +1,22 @@
-# flux-shell
+# FluxTodoList
 
-This is a very simple hello world app that you can use as a starting point for your application.
+This is a super simple todo list using the Flux architecture.
 
 # Usage
 
 ```bash
-cd path/to/flux-shell
+git clone https://github.com/colinharris05/FluxTodoList.git
+cd FluxTodoList/
 npm install
 npm run build
-# open path/to/flux-shell/index.html in your browser
+# open ./index.html in your browser
 ```
 
 # Watch
 
-Instead of manually building after each change it's possible to automatically recompile the javascript bundle when files change:
+Alternatively, have webpack watch for file changes on save.
 
 ```bash
 npm run watch
-# make javascript changes, then refresh path/to/flux-shell/index.html
+# make js changes, then refresh ./index.html
 ```
